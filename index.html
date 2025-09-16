@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span class="highlight">Anjali Joshi</span></h2>
+      <p>B.Tech CSE student 
+<strong>Frontend Developer and Data Analyst enthusiast</strong> 
+ skilled in HTML, CSS, JavaScript , Microsoft suit(excel,power point,word), SQL, MySQL and PostgreSQL</p>
+      <button onclick="scrollToSection('projects')">View My Work</button>
+    </div>
+    <img src="i.jpg" alt="Profile Photo" class="profile-img">
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+As a B.Tech CSE student, I am actively working on data-driven projects that integrate both backend and frontend technologies. 
+My skill set includes working with SQL, JavaScript, HTML/CSS, Python, and Excel, and I’m also exploring tools like Power BI for data analytics and visualization.
+
+I’m passionate about turning raw data into meaningful insights and building interactive web solutions that bridge the gap between users and data. 
+Looking forward to learning, growing, and contributing to real-world tech challenges!
+
+    </p>
+    <ul class="about-info">
+      <li><strong>Education:</strong> B.Tech in Computer Science and Engineering</li>
+      <li><strong>Skills:</strong> HTML, CSS, JavaScript, Excel, SQL, MySQL and PostgreSQL</li>
+    </ul>
+    <div class="social-links">
+    <a href="https://www.linkedin.com/in/anjali-joshi-17a561276/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/anjaliii04" target="_blank">GitHub</a>
+  </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="p1.png" alt="Project 1">
+        <h3>Project One</h3>
+        <p>A simple yet interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
+         This project demonstrates the use of web technologies to create a classic 2-player game with a clean user interface and dynamic gameplay.</p>
+          <a href="https://github.com/anjaliii04/PRODIGY_WD_01" target="_blank" class="project-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="p2.png" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>Creating a responsive and interactive navigation menu using HTML, CSS, and JavaScript.
+         The menu is designed with a fixed position, making it always visible at the top of the page while scrolling through content.</p>
+          <a href="https://github.com/anjaliii04/PRODIGY_WD_02" target="_blank" class="project-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="p3.png" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>A simple, modern, and fully functional stopwatch application built with zero external dependencies.
+         This project is a single-file web application that you can run in any modern browser.</p>
+          <a href="https://github.com/anjaliii04/PRODIGY_WD_03" target="_blank" class="project-link">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Anjali Joshi" required>
+      <input type="email" placeholder="anjalijoshi396@gmail.com" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Anjali Joshi | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
